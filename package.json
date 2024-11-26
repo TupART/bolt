@@ -1,0 +1,8 @@
+{
+  "name": "cch-tool",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python3 -c \"import ensurepip; ensurepip.bootstrap()\" && python3 -m pip install --user -r requirements.txt && python3 run.py"
+  }
+}
